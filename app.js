@@ -19,12 +19,11 @@ const connectDB = require("./db/connect");
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://your-frontend-domain.com"],
+    origin: ["http://localhost:5173", "https://clifford-joshua.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
-app.options("*", cors());
 
 app.use(express.json());
 
