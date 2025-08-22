@@ -24,7 +24,7 @@ pids
 # Build output
 /dist
 /build
-/public/uploads
+
 
 # IDE / OS files
 .vscode/
